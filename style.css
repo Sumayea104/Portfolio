@@ -102,4 +102,24 @@ main {
 }
 
 /* what i do */
+.do-section{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+/* .skills{
+    display: flex;
+    gap: ;
+} */
 
+.skill-tittle{
+    font-weight: 700 ;
+    font-size: 20px;
+
+}
+.skill-description{
+    color: ;
+
+}

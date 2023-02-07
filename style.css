@@ -17,11 +17,18 @@
   background: #fd6e0a;
   border-radius: 5px;
 }
+
+.header {
+  background: #fff8f3;
+  background-image: url(images/header_bg.png), url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
 /* header and nav style */
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 20px;
+  margin: 50px 200px;
 }
 .nav-tittle {
   font-weight: 800;
@@ -34,4 +41,50 @@ nav ul {
 nav li {
   list-style: none;
   margin: 50px;
+}
+/* banner styles */
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+.sub-tittle {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.author-name {
+  font-weight: 700;
+  font-size: 85px;
+}
+.description {
+  color: rgb(85, 82, 82);
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: o auto;
+}
+
+/* about style */
+
+.about {
+  margin-top: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+.about-me{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.about-description {
+    color:#757575 ;
+    font-size:18px ;
+    margin-bottom: 30px;
+    text-align: justify;
 }

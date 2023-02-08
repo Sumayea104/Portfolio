@@ -165,3 +165,26 @@ nav li {
     margin-top: 50px;
     text-align: center;
 }
+/* contact styles */
+.Contact{
+    background-color: antiquewhite;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+.Contact .section-tittle{
+    text-align:left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+.Contact a{
+    text-decoration: none;
+}

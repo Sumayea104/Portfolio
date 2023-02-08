@@ -3,11 +3,11 @@
     font-family: "Open Sans", sans-serif;
     }
 
-text-primary {
+.text-primary {
     color: #fd6e0a;
     }
 
-button-primary {
+.button-primary {
     color: #ffffff;
     font-weight: 700;
     font-size: 20px;
@@ -18,14 +18,15 @@ button-primary {
     border-radius: 5px;
     }
 section{
-        margin-top: 130px;
+        margin: 130px 250px;
     }
 /* header and nav  */
-.header {
+header {
     background: #fff8f3;
     background-image: url(images/header_bg.png), url(images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    
     }
 /*  nav style */
 nav {
@@ -33,7 +34,7 @@ nav {
     justify-content: space-between;
     margin: 50px 200px;
     }
-.nav-tittle {
+nav-tittle {
     font-weight: 800;
     font-size: 45px;
     }
@@ -65,7 +66,7 @@ nav li {
     color: rgb(85, 82, 82);
     }
 /* main section */
-main {
+.main {
     max-width: 1140px;
     margin: o auto;
     }
@@ -73,7 +74,7 @@ main {
 /* about style */
 
 .about {
-    margin-top: 130px;
+    
     background: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;

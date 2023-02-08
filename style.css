@@ -3,28 +3,31 @@
     font-family: "Open Sans", sans-serif;
     }
 
-.text-primary {
+text-primary {
     color: #fd6e0a;
     }
 
-.button-primary {
+button-primary {
     color: #ffffff;
     font-weight: 700;
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
-    height: 63px;
+    height: 64px;
     background: #fd6e0a;
     border-radius: 5px;
     }
-
+section{
+        margin-top: 130px;
+    }
+/* header and nav  */
 .header {
     background: #fff8f3;
     background-image: url(images/header_bg.png), url(images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
     }
-/* header and nav style */
+/*  nav style */
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,6 +50,7 @@ nav li {
     display: flex;
     align-items: center;
     margin: 0 200px;
+    
     }
 .sub-tittle {
     font-weight: 600;
@@ -102,24 +106,33 @@ main {
 }
 
 /* what i do */
-.do-section{
-    margin-top: 130px;
+.section-tittle{
+    font-weight: 700 ;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 .skills-container{
     display: flex;
     gap: 24px;
 }
-/* .skills{
-    display: flex;
-    gap: ;
-} */
-
+.skills{
+    background: #ffffff ;
+    box-shadow: 0px 6px 50px black;
+    border-radius: 5px;
+    padding: 30px;
+}
 .skill-tittle{
     font-weight: 700 ;
     font-size: 20px;
-
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .skill-description{
     color: ;
 
 }
+
+/* resume */
